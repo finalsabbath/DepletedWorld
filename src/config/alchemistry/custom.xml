@@ -1,0 +1,32 @@
+<!--Read the wiki for more info on using custom recipes https://github.com/al132mc/alchemistry/wiki -->
+<recipes>
+
+<recipe type="dissolver">
+    <input>stoneLimestone</input>
+    <output type="relative" rolls="3">
+        <group probability="5">
+            <item quantity="5">calcium</item>
+            <item quantity="5">carbonate</item>
+        </group>
+        <group probability="1">
+            <item quantity="1">strontium</item>
+            <item quantity="5">carbonate</item>
+        </group>
+    </output>
+</recipe>
+
+<recipe type="combiner">
+    <input>
+        <item key="A" quantity="6">barium</item>
+        <item key="B" quantity="16">silicon_dioxide</item>
+        <item key="C" quantity="2">carbon</item>
+        <row>ABA</row>
+        <row>BCB</row>
+        <row>ACA</row>
+    </input>
+    <output>
+        <item meta="5">actuallyadditions:item_misc</item>
+    </output>
+</recipe>
+
+</recipes>

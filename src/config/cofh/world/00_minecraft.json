@@ -22,6 +22,27 @@
 				]
 			}
 		},
+		"clay": {
+
+			"distribution": "uniform",
+			"generator": {
+				"block": "clay",
+				"material": "minecraft:stone",
+				"cluster-size": 12
+			},
+			"cluster-count": 5,
+			"min-height": 40,
+			"max-height": 150,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
 
 		"gravel": {
 			"distribution": "uniform",
@@ -124,6 +145,7 @@
 
 		"coal": {
 			"distribution": "uniform",
+			"enabled":false,
 			"generator": {
 				"block": "coal_ore",
 				"material": "minecraft:stone",
@@ -145,6 +167,7 @@
 
 		"iron": {
 			"distribution": "uniform",
+			"enabled":false,
 			"generator": {
 				"block": "iron_ore",
 				"material": "minecraft:stone",
@@ -166,6 +189,7 @@
 
 		"gold": {
 			"distribution": "uniform",
+			"enabled":false,
 			"generator": {
 				"block": "gold_ore",
 				"material": "minecraft:stone",
@@ -187,6 +211,7 @@
 
 		"redstone": {
 			"distribution": "uniform",
+			"enabled":false,
 			"generator": {
 				"block": "redstone_ore",
 				"material": "minecraft:stone",
@@ -208,6 +233,7 @@
 
 		"diamond": {
 			"distribution": "uniform",
+			"enabled":false,
 			"generator": {
 				"block": "diamond_ore",
 				"material": "minecraft:stone",
@@ -229,6 +255,7 @@
 
 		"lapis": {
 			"distribution": "gaussian",
+			"enabled":false,
 			"generator": {
 				"block": "lapis_ore",
 				"material": "minecraft:stone",
@@ -249,7 +276,7 @@
 		},
 
 		"mesa_gold": {
-			"enabled": true,
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -289,6 +316,7 @@
 
 		"emerald": {
 			"distribution": "uniform",
+			"enabled":false,
 			"generator": {
 				"block": {
 					"name": "emerald_ore"
