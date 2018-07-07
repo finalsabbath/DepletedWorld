@@ -1,6 +1,7 @@
 <!--Read the wiki for more info on using custom recipes https://github.com/al132mc/alchemistry/wiki -->
 <recipes>
 
+<!--Stone Dissolver recipes -->
 <recipe type="dissolver">
     <input>stoneLimestone</input>
     <output type="absolute" rolls="1">
@@ -12,7 +13,6 @@
         </group>
     </output>
 </recipe>
-
 <recipe type="dissolver">
     <input>sandstone</input>
     <output type="absolute" rolls="1">
@@ -30,7 +30,6 @@
         </group>
     </output>
 </recipe>
-
 <recipe type="dissolver">
     <input>stoneMarble</input>
     <output type="absolute" rolls="1">
@@ -50,7 +49,6 @@
         </group>
     </output>
 </recipe>
-
 <recipe type="dissolver">
     <input>stoneGranite</input> 
     <output type="absolute" rolls="1">
@@ -65,7 +63,6 @@
         </group>
     </output>
 </recipe>
-
 <recipe type="dissolver">
     <input>stoneBasalt</input>
     <output type="absolute" rolls="1">
@@ -86,7 +83,6 @@
         </group>
     </output>
 </recipe>
-
 <recipe type="dissolver">
     <input>stoneAndesite</input>
     <output type="absolute" rolls="1">
@@ -101,7 +97,6 @@
         </group>
     </output>
 </recipe>
-
 <recipe type="dissolver">
     <input>stoneDiorite</input>
     <output type="absolute" rolls="1">
@@ -114,6 +109,8 @@
     </output>
 </recipe>
 
+
+<!--Actually Additions -->
 <recipe type="combiner">
     <input>
         <item key="A" quantity="6">barium</item>
@@ -126,6 +123,7 @@
     </output>
 </recipe>
 
+<!--Applied Energistics 2 -->
 <recipe type="combiner">
     <input>
         <item key="A" quantity="2">barium</item>
@@ -138,6 +136,32 @@
     </output>
 </recipe>
 
+<!--Vanilla recipe changes -->
+<recipe type="combiner" action="remove">
+    <input>
+        <item key="A" quantity="64">carbon</item>
+        <row>AAA</row>
+        <row>A A</row>
+        <row>AAA</row>
+    </input>
+    <output>
+        <item>minecraft:diamond</item>
+    </output>
+</recipe>
+
+<recipe type="combiner">
+    <input>
+        <item key="A" quantity="64">carbon</item>
+        <row>AAA</row>
+        <row>AAA</row>
+        <row>AAA</row>
+    </input>
+    <output>
+        <item>minecraft:diamond</item>
+    </output>
+</recipe>
+
+<!--Atomizer -->
 <recipe type="atomizer">
     <input>minecraft:lava</input>
     <output type="absolute" rolls="1">
