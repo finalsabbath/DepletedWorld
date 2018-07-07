@@ -3,28 +3,73 @@
 
 <recipe type="dissolver">
     <input>stoneLimestone</input>
-    <output type="relative" rolls="3">
+    <output type="absolute" rolls="2">
         <group probability="5">
-            <item quantity="5">calcium</item>
-            <item quantity="5">carbonate</item>
+            <item quantity="5">calcium_carbonate</item>
         </group>
         <group probability="1">
-            <item quantity="1">strontium</item>
-            <item quantity="5">carbonate</item>
+            <item quantity="1">strontium_carbonate</item>
         </group>
     </output>
 </recipe>
 
 <recipe type="dissolver">
     <input>stoneMarble</input>
-    <output type="relative" rolls="3">
+    <output type="absolute" rolls="2">
         <group probability="5">
-            <item quantity="5">calcium</item>
-            <item quantity="5">carbonate</item>
+            <item quantity="5">calcium_carbonate</item>
+        </group>
+        <group probability="5">
+            <item quantity="5">magnesium_oxide</item>
+        </group>
+        <group probability="2">
+            <item quantity="2">silver</item>
+            <item quantity="3">oxygen</item>
+        </group>
+        <group probability="2">
+            <item quantity="2">tin</item>
+            <item quantity="3">oxygen</item>
+        </group>
+    </output>
+</recipe>
+
+<recipe type="dissolver">
+    <input>stoneGranite</input> 
+    <output type="absolute" rolls="2">
+        <group probability="5">
+            <item quantity="5">potassium_chloride</item>
+        </group>
+        <group probability="2">
+            <item quantity="2">silicon_chloride</item>
         </group>
         <group probability="1">
-            <item quantity="1">strontium</item>
-            <item quantity="5">carbonate</item>
+            <item quantity="1">sodium_chloride</item>
+        </group>
+    </output>
+</recipe>
+
+<recipe type="dissolver">
+    <input>stoneAndesite</input>
+    <output type="absolute" rolls="2">
+        <group probability="5">
+            <item quantity="5">silicon_dioxide</item>
+        </group>
+        <group probability="2">
+            <item quantity="3">iron</item>
+            <item quantity="4">oxygen</item>
+        </group>
+    </output>
+</recipe>
+
+<recipe type="dissolver">
+    <input>stoneDiorite</input>
+    <output type="absolute" rolls="2">
+        <group probability="5">
+            <item quantity="5">silicon_dioxide</item>
+        </group>
+        <group probability="2">
+            <item quantity="3">iron</item>
+            <item quantity="4">oxygen</item>
         </group>
     </output>
 </recipe>
@@ -34,12 +79,22 @@
         <item key="A" quantity="6">barium</item>
         <item key="B" quantity="16">silicon_dioxide</item>
         <item key="C" quantity="2">carbon</item>
-        <row>ABA</row>
-        <row>BCB</row>
-        <row>ACA</row>
+        <row>ABC</row>
     </input>
     <output>
         <item meta="5">actuallyadditions:item_misc</item>
+    </output>
+</recipe>
+
+<recipe type="combiner">
+    <input>
+        <item key="A" quantity="2">barium</item>
+        <item key="B" quantity="4">silicon_dioxide</item>
+        <row></row>
+        <row>BA </row>
+    </input>
+    <output>
+        <item>appliedenergistics2:material</item>
     </output>
 </recipe>
 
