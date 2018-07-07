@@ -15,6 +15,20 @@
     </output>
 </recipe>
 
+<recipe type="dissolver">
+    <input>stoneMarble</input>
+    <output type="relative" rolls="3">
+        <group probability="5">
+            <item quantity="5">calcium</item>
+            <item quantity="5">carbonate</item>
+        </group>
+        <group probability="1">
+            <item quantity="1">strontium</item>
+            <item quantity="5">carbonate</item>
+        </group>
+    </output>
+</recipe>
+
 <recipe type="combiner">
     <input>
         <item key="A" quantity="6">barium</item>
