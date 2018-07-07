@@ -24,7 +24,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Natural resource",
+          "name:8": "Wood",
           "desc:8": "Harvest some trees"
         }
       },
@@ -1023,7 +1023,9 @@
     },
     "14:10": {
       "questID:3": 14,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        0
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1963,7 +1965,11 @@
     },
     "37:10": {
       "questID:3": 37,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        13,
+        17,
+        15
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2047,7 +2053,7 @@
           "desc:8": "Mineral generation through chemistry"
         }
       },
-      "order:3": 2
+      "order:3": 3
     },
     "1:10": {
       "quests:9": {
@@ -2139,7 +2145,7 @@
           "desc:8": "Basics to get you up and running"
         }
       },
-      "order:3": 0
+      "order:3": 1
     },
     "2:10": {
       "quests:9": {
@@ -2201,7 +2207,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 1
+      "order:3": 2
     },
     "3:10": {
       "quests:9": {
@@ -2245,7 +2251,57 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 3
+      "order:3": 4
+    },
+    "4:10": {
+      "quests:9": {
+        "0:10": {
+          "size:3": 24,
+          "x:3": -60,
+          "y:3": 24,
+          "id:3": 0
+        },
+        "1:10": {
+          "size:3": 24,
+          "x:3": 36,
+          "y:3": 24,
+          "id:3": 2
+        },
+        "2:10": {
+          "size:3": 24,
+          "x:3": -12,
+          "y:3": 24,
+          "id:3": 8
+        },
+        "3:10": {
+          "size:3": 24,
+          "x:3": -60,
+          "y:3": 66,
+          "id:3": 15
+        },
+        "4:10": {
+          "size:3": 24,
+          "x:3": -60,
+          "y:3": 114,
+          "id:3": 16
+        },
+        "5:10": {
+          "size:3": 24,
+          "x:3": -12,
+          "y:3": 66,
+          "id:3": 37
+        }
+      },
+      "lineID:3": 4,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Basic Resources",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 0
     }
   },
   "questSettings:10": {
