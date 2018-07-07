@@ -3,9 +3,9 @@
 
 <recipe type="dissolver">
     <input>stoneLimestone</input>
-    <output type="absolute" rolls="2">
+    <output type="absolute" rolls="1">
         <group probability="100">
-            <item quantity="5">calcium_carbonate</item>
+            <item quantity="3">calcium_carbonate</item>
         </group>
         <group probability="10">
             <item quantity="1">strontium_carbonate</item>
@@ -15,12 +15,12 @@
 
 <recipe type="dissolver">
     <input>stoneMarble</input>
-    <output type="absolute" rolls="2">
+    <output type="absolute" rolls="1">
         <group probability="100">
-            <item quantity="5">calcium_carbonate</item>
+            <item quantity="3">calcium_carbonate</item>
         </group>
         <group probability="20">
-            <item quantity="5">magnesium_oxide</item>
+            <item quantity="3">magnesium_oxide</item>
         </group>
         <group probability="10">
             <item quantity="2">silver</item>
@@ -35,9 +35,9 @@
 
 <recipe type="dissolver">
     <input>stoneGranite</input> 
-    <output type="absolute" rolls="2">
+    <output type="absolute" rolls="1">
         <group probability="25">
-            <item quantity="5">potassium_chloride</item>
+            <item quantity="3">potassium_chloride</item>
         </group>
         <group probability="25">
             <item quantity="2">silicon_chloride</item>
@@ -50,9 +50,9 @@
 
 <recipe type="dissolver">
     <input>stoneAndesite</input>
-    <output type="absolute" rolls="2">
+    <output type="absolute" rolls="1">
         <group probability="75">
-            <item quantity="5">silicon_dioxide</item>
+            <item quantity="3">silicon_dioxide</item>
         </group>
         <group probability="10">
             <item quantity="3">iron</item>
@@ -63,9 +63,9 @@
 
 <recipe type="dissolver">
     <input>stoneDiorite</input>
-    <output type="absolute" rolls="2">
+    <output type="absolute" rolls="1">
         <group probability="75">
-            <item quantity="5">silicon_dioxide</item>
+            <item quantity="3">silicon_dioxide</item>
         </group>
         <group probability="10">
             <item quantity="3">iron</item>
