@@ -14,6 +14,24 @@
 </recipe>
 
 <recipe type="dissolver">
+    <input>sandstone</input>
+    <output type="absolute" rolls="1">
+        <group probability="75">
+            <item quantity="3">silicon_dioxide</item>
+        </group>
+        <group probability="50">
+            <item quantity="1">calcium_carbonate</item>
+        </group>
+        <group probability="10">
+            <item quantity="2">iron_oxide</item>
+        </group>
+        <group probability="1">
+            <item quantity="1">gold</item>
+        </group>
+    </output>
+</recipe>
+
+<recipe type="dissolver">
     <input>stoneMarble</input>
     <output type="absolute" rolls="1">
         <group probability="100">
@@ -49,14 +67,31 @@
 </recipe>
 
 <recipe type="dissolver">
+    <input>stoneBasalt</input>
+    <output type="absolute" rolls="1">
+        <group probability="75">
+            <item quantity="3">silicon_dioxide</item>
+        </group>
+        <group probability="25">
+            <item quantity="1">sodium_chloride</item>
+        </group>
+        <group probability="15">
+            <item quantity="3">magnesium_oxide</item>
+        </group>
+        <group probability="10">
+            <item quantity="2">iron_oxide</item>
+        </group>
+    </output>
+</recipe>
+
+<recipe type="dissolver">
     <input>stoneAndesite</input>
     <output type="absolute" rolls="1">
         <group probability="75">
             <item quantity="3">silicon_dioxide</item>
         </group>
         <group probability="10">
-            <item quantity="3">iron</item>
-            <item quantity="4">oxygen</item>
+            <item quantity="2">iron_oxide</item>
         </group>
     </output>
 </recipe>
@@ -68,8 +103,7 @@
             <item quantity="3">silicon_dioxide</item>
         </group>
         <group probability="10">
-            <item quantity="3">iron</item>
-            <item quantity="4">oxygen</item>
+            <item quantity="2">iron_oxide</item>
         </group>
     </output>
 </recipe>
