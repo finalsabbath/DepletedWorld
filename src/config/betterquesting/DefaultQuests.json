@@ -2494,7 +2494,9 @@
     },
     "46:10": {
       "questID:3": 46,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        47
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2519,7 +2521,25 @@
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:draconic_ingot",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "47:10": {
@@ -2614,7 +2634,9 @@
     },
     "50:10": {
       "questID:3": 50,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        80
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2624,7 +2646,7 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "tconstruct:metal",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -2635,16 +2657,36 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Cobalt",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:ingots",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "51:10": {
       "questID:3": 51,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        80
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2654,9 +2696,9 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "tconstruct:metal",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 1,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -2665,16 +2707,36 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Ardite",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:ingots",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "52:10": {
       "questID:3": 52,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        80
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2684,7 +2746,7 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "minecraft:glowstone",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -2695,11 +2757,29 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Glowstone",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:glowstone_dust",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "53:10": {
@@ -2714,8 +2794,12 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "appliedenergistics2:energy_cell",
             "Count:3": 1,
+            "tag:10": {
+              "internalMaxPower:6": 200000.0,
+              "internalCurrentPower:6": 200000.0
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -2725,16 +2809,34 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "AE Energy cell",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:energy_cell",
+              "Count:3": 1,
+              "tag:10": {},
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
       "rewards:9": {}
     },
     "54:10": {
       "questID:3": 54,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        53
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2744,8 +2846,12 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "appliedenergistics2:dense_energy_cell",
             "Count:3": 1,
+            "tag:10": {
+              "internalMaxPower:6": 1600000.0,
+              "internalCurrentPower:6": 1600000.0
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -2755,17 +2861,34 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "AE Dense Energy Cell",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:dense_energy_cell",
+              "Count:3": 1,
+              "tag:10": {},
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
       "rewards:9": {}
     },
     "55:10": {
       "questID:3": 55,
       "preRequisites:11": [
-        2
+        41,
+        38
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2814,7 +2937,9 @@
     },
     "56:10": {
       "questID:3": 56,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        2
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2835,16 +2960,37 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Steel",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 160
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "57:10": {
       "questID:3": 57,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        43,
+        40
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2865,11 +3011,29 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Electrum",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 161
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "58:10": {
@@ -2895,7 +3059,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Lumium",
           "desc:8": "No Description"
         }
       },
@@ -2925,7 +3089,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Signalium",
           "desc:8": "No Description"
         }
       },
@@ -2955,7 +3119,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Constantan",
           "desc:8": "No Description"
         }
       },
@@ -2985,7 +3149,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Knightslime",
           "desc:8": "No Description"
         }
       },
@@ -2994,7 +3158,10 @@
     },
     "62:10": {
       "questID:3": 62,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        63,
+        104
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3015,16 +3182,38 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Vibrant alloy",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_alloy_ingot",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "63:10": {
       "questID:3": 63,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        98,
+        43,
+        52
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3045,16 +3234,37 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Energetic alloy",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_alloy_ingot",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "64:10": {
       "questID:3": 64,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        2,
+        104
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3075,16 +3285,37 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Pulsating Iron",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_alloy_ingot",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 5
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "65:10": {
       "questID:3": 65,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        50,
+        51
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3105,11 +3336,29 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Manyullyn",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:ingots",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "66:10": {
@@ -3189,7 +3438,10 @@
     },
     "67:10": {
       "questID:3": 67,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        2,
+        42
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3210,11 +3462,29 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Invar",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 162
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "68:10": {
@@ -3240,7 +3510,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Enderium",
           "desc:8": "No Description"
         }
       },
@@ -3270,7 +3540,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Redstone alloy",
           "desc:8": "No Description"
         }
       },
@@ -3300,7 +3570,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Alumite",
           "desc:8": "No Description"
         }
       },
@@ -3970,8 +4240,14 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "mekanism:energycube",
             "Count:3": 1,
+            "tag:10": {
+              "tier:3": 0,
+              "mekData:10": {
+                "energyStored:6": 2000000.0
+              }
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -3981,16 +4257,37 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Mekanism Enery Cube",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:energycube",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 0,
+                "mekData:10": {}
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
       "rewards:9": {}
     },
     "82:10": {
       "questID:3": 82,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        81
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4000,8 +4297,14 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "mekanism:energycube",
             "Count:3": 1,
+            "tag:10": {
+              "tier:3": 1,
+              "mekData:10": {
+                "energyStored:6": 8000000.0
+              }
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -4011,11 +4314,30 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Mekanism Advanced Energy Cube",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:energycube",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 1,
+                "mekData:10": {}
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
       "rewards:9": {}
     },
     "83:10": {
@@ -4136,7 +4458,9 @@
     },
     "85:10": {
       "questID:3": 85,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        82
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4146,8 +4470,14 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "mekanism:energycube",
             "Count:3": 1,
+            "tag:10": {
+              "tier:3": 2,
+              "mekData:10": {
+                "energyStored:6": 3.2E7
+              }
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -4157,11 +4487,30 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Mekanism Elite Energy Cube",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:energycube",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 2,
+                "mekData:10": {}
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
       "rewards:9": {}
     },
     "86:10": {
@@ -4258,7 +4607,9 @@
     },
     "88:10": {
       "questID:3": 88,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        85
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4268,8 +4619,14 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "mekanism:energycube",
             "Count:3": 1,
+            "tag:10": {
+              "tier:3": 3,
+              "mekData:10": {
+                "energyStored:6": 1.28E8
+              }
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -4279,11 +4636,30 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Mekanism Ultimate Energy Cube",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:energycube",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 3,
+                "mekData:10": {}
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
       "rewards:9": {}
     },
     "89:10": {
@@ -4713,9 +5089,9 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "enderio:block_cap_bank",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 1,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -4724,11 +5100,26 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Basic Capacitor Bank",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_cap_bank",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
       "rewards:9": {}
     },
     "98:10": {
@@ -4824,7 +5215,9 @@
     },
     "99:10": {
       "questID:3": 99,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        97
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4834,9 +5227,9 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "enderio:block_cap_bank",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 2,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -4845,16 +5238,33 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Capacitor Bank",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_cap_bank",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
       "rewards:9": {}
     },
     "100:10": {
       "questID:3": 100,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        99
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4864,9 +5274,9 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "enderio:block_cap_bank",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 3,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -4875,11 +5285,26 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Vibrant Capacitor Bank",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_cap_bank",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 3
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
       "rewards:9": {}
     },
     "101:10": {
@@ -4894,7 +5319,7 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "immersiveengineering:metal_device0",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -4905,16 +5330,33 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "LV Capacitor",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:metal_device0",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
       "rewards:9": {}
     },
     "102:10": {
       "questID:3": 102,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        101
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4924,9 +5366,9 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "immersiveengineering:metal_device0",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 1,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -4935,16 +5377,33 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "MV Capacitor",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:metal_device0",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
       "rewards:9": {}
     },
     "103:10": {
       "questID:3": 103,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        102
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4954,9 +5413,9 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "immersiveengineering:metal_device0",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 2,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -4965,11 +5424,26 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "HV Capacitor",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:metal_device0",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
       "rewards:9": {}
     },
     "104:10": {
@@ -4984,7 +5458,7 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "minecraft:ender_pearl",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -4995,11 +5469,29 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Ender Pearls",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "105:10": {
@@ -5014,7 +5506,7 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "minecraft:end_stone",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -5025,11 +5517,29 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "End Stone",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:end_stone",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "106:10": {
@@ -5079,6 +5589,1304 @@
         }
       },
       "rewards:9": {}
+    },
+    "107:10": {
+      "questID:3": 107,
+      "preRequisites:11": [
+        13,
+        17
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "alchemistry:atomizer",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Atomizer",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "alchemistry:atomizer",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "108:10": {
+      "questID:3": 108,
+      "preRequisites:11": [
+        107
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "alchemistry:electrolyzer",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Electrolyzer",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "alchemistry:electrolyzer",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "109:10": {
+      "questID:3": 109,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "110:10": {
+      "questID:3": 110,
+      "preRequisites:11": [
+        0,
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:chest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Chest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:chest",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "111:10": {
+      "questID:3": 111,
+      "preRequisites:11": [
+        110,
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderstorage:ender_storage",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Ender Chest",
+          "desc:8": "Ender chests with the same coloring will share inventory even across dimensions."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderstorage:ender_storage",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "112:10": {
+      "questID:3": 112,
+      "preRequisites:11": [
+        110
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "actuallyadditions:block_giant_chest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Small Crate",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:block_misc",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 4
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:block_giant_chest",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "113:10": {
+      "questID:3": 113,
+      "preRequisites:11": [
+        110,
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "quantumstorage:chest_iron",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Iron Crate",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "quantumstorage:chest_iron",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "114:10": {
+      "questID:3": 114,
+      "preRequisites:11": [
+        111
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderstorage:ender_pouch",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Ender pouch",
+          "desc:8": "Ender pouches will share inventory with ender chests with the same coloring as well."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderstorage:ender_pouch",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "115:10": {
+      "questID:3": 115,
+      "preRequisites:11": [
+        110
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagedrawers:basicdrawers",
+            "Count:3": 1,
+            "tag:10": {
+              "material:8": "oak"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Basic Drawer",
+          "desc:8": "Drawers are a great way to store a lot of a single item."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagedrawers:basicdrawers",
+              "Count:3": 1,
+              "tag:10": {
+                "material:8": "oak"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "116:10": {
+      "questID:3": 116,
+      "preRequisites:11": [
+        112
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "actuallyadditions:block_giant_chest_medium",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Medium Crate",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:block_giant_chest_medium",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "117:10": {
+      "questID:3": 117,
+      "preRequisites:11": [
+        116
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "actuallyadditions:block_giant_chest_large",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Large Crate",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:block_giant_chest_large",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "118:10": {
+      "questID:3": 118,
+      "preRequisites:11": [
+        113,
+        43
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "quantumstorage:chest_gold",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Gold Crate",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "quantumstorage:chest_gold",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "119:10": {
+      "questID:3": 119,
+      "preRequisites:11": [
+        118,
+        74
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "quantumstorage:chest_diamond",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Diamond Crate",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "quantumstorage:chest_diamond",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "120:10": {
+      "questID:3": 120,
+      "preRequisites:11": [
+        119,
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "quantumstorage:quantum_storage_unit",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Quantum Storage Unit",
+          "desc:8": "Quantum Storage Units can hold an almost infinite amount of a single item."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "quantumstorage:quantum_storage_unit",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "121:10": {
+      "questID:3": 121,
+      "preRequisites:11": [
+        115
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagedrawers:compdrawers",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Compacting drawers",
+          "desc:8": "Compacting drawers will compact stored items.  Great for storing metal nuggets, ingots, and blocks."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagedrawers:compdrawers",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "122:10": {
+      "questID:3": 122,
+      "preRequisites:11": [
+        121
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagedrawers:controller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Drawer Controller",
+          "desc:8": "Drawer controllers link connected drawers together for convient import/export."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagedrawers:controller",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "123:10": {
+      "questID:3": 123,
+      "preRequisites:11": [
+        124
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagedrawers:upgrade_storage",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Drawer upgrades",
+          "desc:8": "Drawers can also be upgraded with more storage and other useful features."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagedrawers:upgrade_storage",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "storagedrawers:upgrade_storage",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
+            },
+            "2:10": {
+              "id:8": "storagedrawers:upgrade_storage",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 2
+            },
+            "3:10": {
+              "id:8": "storagedrawers:upgrade_storage",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 3
+            },
+            "4:10": {
+              "id:8": "storagedrawers:upgrade_storage",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 4
+            },
+            "5:10": {
+              "id:8": "storagedrawers:upgrade_void",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "124:10": {
+      "questID:3": 124,
+      "preRequisites:11": [
+        122
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagedrawers:drawer_key",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Drawer keys",
+          "desc:8": "By locking a drawer you ensure that only the item that the drawer currently contains can be stored in it even after the last item is removed."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagedrawers:upgrade_template",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagedrawers:drawer_key",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "125:10": {
+      "questID:3": 125,
+      "preRequisites:11": [
+        47
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:draconium_chest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Draconic Chest",
+          "desc:8": "Huge chest with crafting table and furnace built in.  Needs power to smelt items"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:draconium_chest",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "126:10": {
+      "questID:3": 126,
+      "preRequisites:11": [
+        106,
+        43,
+        2,
+        98,
+        15
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "rftools:modular_storage",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Modular Storage",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "rftools:modular_storage",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "127:10": {
+      "questID:3": 127,
+      "preRequisites:11": [
+        126
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "rftools:storage_module",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Storage Modules",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "rftools:storage_module",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "rftools:storage_module",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
+            },
+            "2:10": {
+              "id:8": "rftools:storage_module",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "128:10": {
+      "questID:3": 128,
+      "preRequisites:11": [
+        127
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "rftools:remote_storage",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Remote Storage",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "rftools:remote_storage",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "rftools:storage_module",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 6
+            },
+            "2:10": {
+              "id:8": "rftools:storage_module_tablet",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "129:10": {
+      "questID:3": 129,
+      "preRequisites:11": [
+        88
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mekanism:basicblock2",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Induction Casing",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:basicblock2",
+              "Count:3": 48,
+              "OreDict:8": "",
+              "Damage:3": 1
+            },
+            "1:10": {
+              "id:8": "mekanism:basicblock2",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "130:10": {
+      "questID:3": 130,
+      "preRequisites:11": [
+        129
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mekanism:basicblock2",
+            "Count:3": 1,
+            "tag:10": {
+              "tier:3": 0,
+              "mekData:10": {}
+            },
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Induction Basic",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:basicblock2",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 0,
+                "mekData:10": {}
+              },
+              "OreDict:8": "",
+              "Damage:3": 3
+            },
+            "1:10": {
+              "id:8": "mekanism:basicblock2",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 4
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "131:10": {
+      "questID:3": 131,
+      "preRequisites:11": [
+        130
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mekanism:basicblock2",
+            "Count:3": 1,
+            "tag:10": {
+              "tier:3": 3,
+              "mekData:10": {}
+            },
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Induction Ultimate",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:basicblock2",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 3,
+                "mekData:10": {}
+              },
+              "OreDict:8": "",
+              "Damage:3": 3
+            },
+            "1:10": {
+              "id:8": "mekanism:basicblock2",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 3
+              },
+              "OreDict:8": "",
+              "Damage:3": 4
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -5119,6 +6927,18 @@
           "x:3": -84,
           "y:3": 132,
           "id:3": 72
+        },
+        "6:10": {
+          "size:3": 24,
+          "x:3": -36,
+          "y:3": 84,
+          "id:3": 107
+        },
+        "7:10": {
+          "size:3": 24,
+          "x:3": 12,
+          "y:3": 84,
+          "id:3": 108
         }
       },
       "lineID:3": 0,
@@ -5130,7 +6950,7 @@
           "desc:8": "Mineral generation through chemistry"
         }
       },
-      "order:3": 5
+      "order:3": 8
     },
     "1:10": {
       "quests:9": {
@@ -5266,13 +7086,13 @@
       "lineID:3": 2,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Power",
+          "name:8": "Power Generation",
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "No Description"
         }
       },
-      "order:3": 4
+      "order:3": 6
     },
     "3:10": {
       "quests:9": {
@@ -5329,12 +7149,6 @@
           "x:3": 0,
           "y:3": 126,
           "id:3": 96
-        },
-        "9:10": {
-          "size:3": 24,
-          "x:3": 48,
-          "y:3": 126,
-          "id:3": 97
         }
       },
       "lineID:3": 3,
@@ -5346,7 +7160,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 6
+      "order:3": 9
     },
     "4:10": {
       "quests:9": {
@@ -5382,89 +7196,65 @@
         },
         "5:10": {
           "size:3": 24,
+          "x:3": 84,
+          "y:3": 24,
+          "id:3": 52
+        },
+        "6:10": {
+          "size:3": 24,
           "x:3": -12,
           "y:3": 24,
           "id:3": 73
         },
-        "6:10": {
+        "7:10": {
           "size:3": 24,
           "x:3": 36,
           "y:3": 24,
           "id:3": 74
         },
-        "7:10": {
+        "8:10": {
           "size:3": 24,
           "x:3": -12,
           "y:3": 114,
           "id:3": 75
         },
-        "8:10": {
+        "9:10": {
           "size:3": 24,
           "x:3": 36,
           "y:3": 114,
           "id:3": 76
         },
-        "9:10": {
+        "10:10": {
           "size:3": 24,
           "x:3": 84,
           "y:3": 114,
           "id:3": 78
         },
-        "10:10": {
+        "11:10": {
           "size:3": 24,
           "x:3": -12,
           "y:3": -24,
           "id:3": 79
         },
-        "11:10": {
+        "12:10": {
           "size:3": 24,
           "x:3": 36,
           "y:3": 66,
           "id:3": 98
         },
-        "12:10": {
-          "size:3": 24,
-          "x:3": 84,
-          "y:3": 66,
-          "id:3": 99
-        },
         "13:10": {
           "size:3": 24,
           "x:3": 132,
-          "y:3": 66,
-          "id:3": 100
-        },
-        "14:10": {
-          "size:3": 24,
-          "x:3": 132,
-          "y:3": 114,
-          "id:3": 101
-        },
-        "15:10": {
-          "size:3": 24,
-          "x:3": 132,
-          "y:3": 24,
-          "id:3": 102
-        },
-        "16:10": {
-          "size:3": 24,
-          "x:3": 84,
-          "y:3": 24,
-          "id:3": 103
-        },
-        "17:10": {
-          "size:3": 24,
-          "x:3": 84,
           "y:3": -24,
           "id:3": 104
         },
-        "18:10": {
+        "14:10": {
           "size:3": 24,
-          "x:3": 132,
+          "x:3": 84,
           "y:3": -24,
           "id:3": 105
         },
-        "19:10": {
+        "15:10": {
           "size:3": 24,
           "x:3": 36,
           "y:3": -24,
@@ -5573,24 +7363,6 @@
           "x:3": 120,
           "y:3": 156,
           "id:3": 51
-        },
-        "15:10": {
-          "size:3": 24,
-          "x:3": 168,
-          "y:3": 60,
-          "id:3": 52
-        },
-        "16:10": {
-          "size:3": 24,
-          "x:3": 168,
-          "y:3": 108,
-          "id:3": 53
-        },
-        "17:10": {
-          "size:3": 24,
-          "x:3": 168,
-          "y:3": 156,
-          "id:3": 54
         }
       },
       "lineID:3": 5,
@@ -5650,14 +7422,14 @@
         },
         "7:10": {
           "size:3": 24,
-          "x:3": -78,
-          "y:3": 120,
+          "x:3": -30,
+          "y:3": 168,
           "id:3": 62
         },
         "8:10": {
           "size:3": 24,
-          "x:3": -30,
-          "y:3": 120,
+          "x:3": -78,
+          "y:3": 168,
           "id:3": 63
         },
         "9:10": {
@@ -5669,7 +7441,7 @@
         "10:10": {
           "size:3": 24,
           "x:3": -30,
-          "y:3": 168,
+          "y:3": 120,
           "id:3": 65
         },
         "11:10": {
@@ -5699,7 +7471,7 @@
         "15:10": {
           "size:3": 24,
           "x:3": -78,
-          "y:3": 168,
+          "y:3": 120,
           "id:3": 70
         }
       },
@@ -5724,33 +7496,15 @@
         },
         "1:10": {
           "size:3": 24,
-          "x:3": -24,
-          "y:3": 42,
-          "id:3": 81
-        },
-        "2:10": {
-          "size:3": 24,
-          "x:3": 24,
-          "y:3": 42,
-          "id:3": 82
-        },
-        "3:10": {
-          "size:3": 24,
           "x:3": -72,
           "y:3": 90,
           "id:3": 83
         },
-        "4:10": {
+        "2:10": {
           "size:3": 24,
           "x:3": -24,
           "y:3": 90,
           "id:3": 84
-        },
-        "5:10": {
-          "size:3": 24,
-          "x:3": 24,
-          "y:3": 90,
-          "id:3": 85
         }
       },
       "lineID:3": 7,
@@ -5762,7 +7516,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 7
+      "order:3": 10
     },
     "8:10": {
       "quests:9": {
@@ -5789,6 +7543,24 @@
           "x:3": -120,
           "y:3": 72,
           "id:3": 92
+        },
+        "4:10": {
+          "size:3": 24,
+          "x:3": -120,
+          "y:3": 120,
+          "id:3": 126
+        },
+        "5:10": {
+          "size:3": 24,
+          "x:3": -72,
+          "y:3": 120,
+          "id:3": 127
+        },
+        "6:10": {
+          "size:3": 24,
+          "x:3": -24,
+          "y:3": 120,
+          "id:3": 128
         }
       },
       "lineID:3": 8,
@@ -5800,7 +7572,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 8
+      "order:3": 11
     },
     "9:10": {
       "quests:9": {
@@ -5815,12 +7587,6 @@
           "x:3": -36,
           "y:3": 48,
           "id:3": 87
-        },
-        "2:10": {
-          "size:3": 24,
-          "x:3": 12,
-          "y:3": 48,
-          "id:3": 88
         }
       },
       "lineID:3": 9,
@@ -5832,7 +7598,234 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 9
+      "order:3": 12
+    },
+    "10:10": {
+      "quests:9": {
+        "0:10": {
+          "size:3": 24,
+          "x:3": -48,
+          "y:3": 24,
+          "id:3": 110
+        },
+        "1:10": {
+          "size:3": 24,
+          "x:3": -48,
+          "y:3": 72,
+          "id:3": 111
+        },
+        "2:10": {
+          "size:3": 24,
+          "x:3": 0,
+          "y:3": 24,
+          "id:3": 112
+        },
+        "3:10": {
+          "size:3": 24,
+          "x:3": 0,
+          "y:3": 72,
+          "id:3": 113
+        },
+        "4:10": {
+          "size:3": 24,
+          "x:3": -48,
+          "y:3": 120,
+          "id:3": 114
+        },
+        "5:10": {
+          "size:3": 24,
+          "x:3": -48,
+          "y:3": -24,
+          "id:3": 115
+        },
+        "6:10": {
+          "size:3": 24,
+          "x:3": 48,
+          "y:3": 24,
+          "id:3": 116
+        },
+        "7:10": {
+          "size:3": 24,
+          "x:3": 96,
+          "y:3": 24,
+          "id:3": 117
+        },
+        "8:10": {
+          "size:3": 24,
+          "x:3": 48,
+          "y:3": 72,
+          "id:3": 118
+        },
+        "9:10": {
+          "size:3": 24,
+          "x:3": 96,
+          "y:3": 72,
+          "id:3": 119
+        },
+        "10:10": {
+          "size:3": 24,
+          "x:3": 144,
+          "y:3": 72,
+          "id:3": 120
+        },
+        "11:10": {
+          "size:3": 24,
+          "x:3": 0,
+          "y:3": -24,
+          "id:3": 121
+        },
+        "12:10": {
+          "size:3": 24,
+          "x:3": 48,
+          "y:3": -24,
+          "id:3": 122
+        },
+        "13:10": {
+          "size:3": 24,
+          "x:3": 144,
+          "y:3": -24,
+          "id:3": 123
+        },
+        "14:10": {
+          "size:3": 24,
+          "x:3": 96,
+          "y:3": -24,
+          "id:3": 124
+        },
+        "15:10": {
+          "size:3": 24,
+          "x:3": 144,
+          "y:3": 24,
+          "id:3": 125
+        }
+      },
+      "lineID:3": 10,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Item Storage",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 4
+    },
+    "11:10": {
+      "quests:9": {},
+      "lineID:3": 11,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Fluid Storage",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 5
+    },
+    "12:10": {
+      "quests:9": {
+        "0:10": {
+          "size:3": 24,
+          "x:3": -48,
+          "y:3": 168,
+          "id:3": 53
+        },
+        "1:10": {
+          "size:3": 24,
+          "x:3": 0,
+          "y:3": 168,
+          "id:3": 54
+        },
+        "2:10": {
+          "size:3": 24,
+          "x:3": -48,
+          "y:3": 24,
+          "id:3": 81
+        },
+        "3:10": {
+          "size:3": 24,
+          "x:3": 0,
+          "y:3": 24,
+          "id:3": 82
+        },
+        "4:10": {
+          "size:3": 24,
+          "x:3": 48,
+          "y:3": 24,
+          "id:3": 85
+        },
+        "5:10": {
+          "size:3": 24,
+          "x:3": 96,
+          "y:3": 24,
+          "id:3": 88
+        },
+        "6:10": {
+          "size:3": 24,
+          "x:3": -48,
+          "y:3": 120,
+          "id:3": 97
+        },
+        "7:10": {
+          "size:3": 24,
+          "x:3": 0,
+          "y:3": 120,
+          "id:3": 99
+        },
+        "8:10": {
+          "size:3": 24,
+          "x:3": 48,
+          "y:3": 120,
+          "id:3": 100
+        },
+        "9:10": {
+          "size:3": 24,
+          "x:3": -48,
+          "y:3": 72,
+          "id:3": 101
+        },
+        "10:10": {
+          "size:3": 24,
+          "x:3": 0,
+          "y:3": 72,
+          "id:3": 102
+        },
+        "11:10": {
+          "size:3": 24,
+          "x:3": 48,
+          "y:3": 72,
+          "id:3": 103
+        },
+        "12:10": {
+          "size:3": 24,
+          "x:3": 96,
+          "y:3": 72,
+          "id:3": 129
+        },
+        "13:10": {
+          "size:3": 24,
+          "x:3": 96,
+          "y:3": 120,
+          "id:3": 130
+        },
+        "14:10": {
+          "size:3": 24,
+          "x:3": 96,
+          "y:3": 168,
+          "id:3": 131
+        }
+      },
+      "lineID:3": 12,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Power Storage",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 7
     }
   },
   "questSettings:10": {
