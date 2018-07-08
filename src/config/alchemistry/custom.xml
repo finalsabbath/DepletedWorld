@@ -61,6 +61,10 @@
         <group probability="25">
             <item quantity="1">sodium_chloride</item>
         </group>
+        <group probability="10">
+            <item quantity="2">osmium</item>
+            <item quantity="4">oxygen</item>
+        </group>
     </output>
 </recipe>
 <recipe type="dissolver">
@@ -79,7 +83,8 @@
             <item quantity="3">magnesium_oxide</item>
         </group>
         <group probability="10">
-            <item quantity="2">iron_oxide</item>
+            <item quantity="2">osmium</item>
+            <item quantity="4">oxygen</item>
         </group>
     </output>
 </recipe>
@@ -95,6 +100,10 @@
         <group probability="20">
             <item quantity="2">aluminum_oxide</item>
         </group>
+        <group probability="10">
+            <item quantity="2">osmium</item>
+            <item quantity="4">oxygen</item>
+        </group>
     </output>
 </recipe>
 <recipe type="dissolver">
@@ -105,6 +114,10 @@
         </group>
         <group probability="10">
             <item quantity="2">iron_oxide</item>
+        </group>
+        <group probability="10">
+            <item quantity="2">osmium</item>
+            <item quantity="4">oxygen</item>
         </group>
     </output>
 </recipe>
