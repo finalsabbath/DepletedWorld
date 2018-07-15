@@ -25,6 +25,10 @@
         <group probability="10">
             <item quantity="2">iron_oxide</item>
         </group>
+        <group probability="5">
+            <item quantity="1">nickel</item>
+            <item quantity="1">oxygen</item>
+        </group>
         <group probability="1">
             <item quantity="1">gold</item>
         </group>
@@ -104,6 +108,10 @@
             <item quantity="2">osmium</item>
             <item quantity="4">oxygen</item>
         </group>
+        <group probability="5">
+            <item quantity="1">nickel</item>
+            <item quantity="1">oxygen</item>
+        </group>
     </output>
 </recipe>
 <recipe type="dissolver">
@@ -118,6 +126,10 @@
         <group probability="10">
             <item quantity="2">osmium</item>
             <item quantity="4">oxygen</item>
+        </group>
+        <group probability="5">
+            <item quantity="1">nickel</item>
+            <item quantity="1">oxygen</item>
         </group>
     </output>
 </recipe>
